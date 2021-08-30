@@ -59,6 +59,7 @@ export default {
         this.imageFile = undefined
         this.image = undefined
         this.mask = false
+        this.input.value = '' // <-- this will fix the issue
         this.$emit('input', undefined)
       }
     }
